@@ -18,7 +18,7 @@ ul {
 /*header*/
 .logo {
     color: var(--NAVY-BLUE, #4d5ae5);
-        font-family: "Raleway" sans-serif;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17 ;
@@ -27,7 +27,7 @@ ul {
 }
 .logo-part {
     color: var(--IRIS, #2e2f42);
-        font-family: "Raleway" sans-serif;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         line-height: 1.2;
         letter-spacing: 0.54px;
@@ -47,6 +47,10 @@ ul {
         .nav-link:focus {
     color:--OCEAN,#404bbf;  
         }
+
+.contact{
+    font-style: normal;
+}
 
  .header-contact {
     color: var(--SLATE, #434455);
@@ -84,8 +88,10 @@ ul {
         background-color: #4D5AE5;
         cursor: pointer
       }                
-           
-
+ .main-btn:hover,
+ .main-btn:focus {
+     color: var(--OCEAN, #404BBF);
+ }
 .main-text {
     color: #434455;
     font-size: 16px;
@@ -129,8 +135,9 @@ ul {
 
 .logo-part-white {
     color: var(--CLOUD, #F4F4FD);
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
-    line-height: 1, 2;
+    line-height: 1.2;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
