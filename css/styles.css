@@ -43,9 +43,8 @@ ul {
         letter-spacing: 0.32px;
     }
 
-        .nav-link:hover,
-        .nav-link:focus {
-    color:--OCEAN,#404bbf;  
+.nav-link:hover, .nav-link:focus {
+    color:#404bbf;  
         }
 
 .contact{
@@ -53,15 +52,14 @@ ul {
 }
 
  .header-contact {
-    color: var(--SLATE, #434455);
+    color: #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
 
-.header-contact:hover,
-.header-contact:focus {
-    color: var(--OCEAN, #404bbf);
+.header-contact:hover, .header-contact:focus {
+    color: #404bbf;
 }
 /*main*/
 .heto-section {
@@ -88,9 +86,8 @@ ul {
         background-color: #4D5AE5;
         cursor: pointer
       }                
- .main-btn:hover,
- .main-btn:focus {
-     color: var(--OCEAN, #404BBF);
+ .main-btn:hover, .main-btn:focus {
+    background-color: #404BBF;
  }
 .main-text {
     color: #434455;
